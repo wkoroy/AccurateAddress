@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Точный адрес</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="provider_gps">GPS</string>
+    <string name="provider_network">Местоположение по сети</string>
+    <string name="location_settings">Настройка передачи геоданных</string>
+    <string name="yourlocation">Ваше расположение: </string>
+    <string name="country">"Страна: "</string>
+    <string name="postalcode">"почтовый код:"</string>
+    <string name="state">"Регион:"</string>
+    <string name="county">"Округ:"</string>
+    <string name="city">"Город:"</string>
+    <string name="city_district">"Городcкой округ:"</string>
+    <string name="suburb">"Район:"</string>
+    <string name="neighbourhood">"Микрорайон:"</string>
+    <string name="road">"Улица/проспект:"</string>
+    <string name="house_number">"Номер дома:"</string>
+    <string name="labelbu">Обновить информацию о местоположении</string>
+    <string name="active">Действие:</string>
+    <string name="actionstatus">Статус:</string>
+    <string name="copytobuf">Скопировать адрес в буффер обмена</string>
+    <string name="copytobuff">Cкопировать адрес в буфер обмена</string>
+    <string name="updatemsg">"Для быстрого обновления данных поверните телефон для смены ориентации"</string>
+    <string name="copyedmsg">"Адрес скопирован в буффер обмена"</string>
+    <string name="coorformatlabel"> Координаты: Широта: %1$.4f,   Долгота:%2$.4f,  Местное время: %3$tF %3$tT </string>
+    <string name="statesconst">Состояние:  </string>
+    <string name="on_st">вкл </string>
+    <string name="of_st">выкл  </string>
+    <string name="warninggps">Так как GPS выключен,адрес будет неточен!  </string>
+    <string name="waitgpscoord">Ожидание координат по GPS ...  </string>
+    <string name="waitmobicoord">Ожидание координат из мобильной сети ...  </string>
+    <string name="err_definelocation">Ошибка:Не включено определение местоположения, ваш адрес не может быть определен! </string>
+    <string name="err_settings_location"> Ошибка:Недоступно определение местоположения.Проверьте настройки передачи геоданных</string>
+    <string name="err_nointernet">Нет соединения с интернетом. Невозможно получить данные</string>
+    <string name="err_connect_internet">Ошибка подключения к интернету</string>
+    <string name="data_success">Данные успешно получены</string>
+    <string name="serverconnect">Подключение к серверу ...</string>
+    <string name="copygps">Копировать координаты GPS</string>
+    <string name="lat">Широта:</string>
+    <string name="lon">Долгота:</string>
+
+
+</resources>

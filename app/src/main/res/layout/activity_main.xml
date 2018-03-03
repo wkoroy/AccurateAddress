@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:id="@+id/LINLAY1"
+    android:background="@drawable/background"
+    tools:context="com.wkoroy.accurateaddress.MainActivity">
+
+    <TextView
+        android:id="@+id/tcountry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/country"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tpostcode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/postalcode"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tstate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/state"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tcounty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/county"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tcity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tcity_district"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/city_district"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tsuburb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/suburb"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tneighbourhood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/neighbourhood"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/troad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/road"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/thouse_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/house_number"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:progress="100" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/horizontalScrollView2" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/horizontalScrollView" >
+
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/actionstatus"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/action" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1">
+
+            <ImageButton
+                android:layout_width="64dp"
+                android:layout_height="53dp"
+                android:id="@+id/copyadr"
+                android:background="@drawable/custom_butttoncopy" />
+
+            <ImageButton
+                android:layout_width="57dp"
+                android:layout_height="match_parent"
+                android:id="@+id/share"
+                android:background="@drawable/custom_butttonshare"
+                android:layout_marginLeft="30dp"
+                android:layout_weight="0.02" />
+
+            <ImageButton
+                android:layout_width="57dp"
+                android:layout_height="57dp"
+                android:onClick="onClickLocationSettings"
+                android:id="@+id/settingloc"
+                android:background="@drawable/custom_butttonsettings"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_admob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTitleGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/provider_gps"
+        android:textSize="12sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvEnabledGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvLocationGPS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvTitleNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/provider_network"
+        android:textSize="12sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvEnabledNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvLocationNet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" >
+    </TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/btnLocationSettings"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:onClick="onClickLocationSettings"
+            android:text="@string/location_settings"
+            android:textSize="12sp"
+            android:layout_marginRight="7dp" />
+
+        <Button
+            android:layout_width="181dp"
+            android:layout_height="67dp"
+            android:text="@string/copygps"
+            android:id="@+id/cpgpsbutton"
+            android:layout_marginRight="0dp"
+            android:layout_margin="20dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

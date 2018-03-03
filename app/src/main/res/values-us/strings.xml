@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Exact address</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="provider_gps">GPS</string>
+    <string name="provider_network">Location from mobile network</string>
+    <string name="location_settings">Settings for geodata</string>
+    <string name="yourlocation">Your geolocation: </string>
+    <string name="country">"Country: "</string>
+    <string name="postalcode">Postal code:</string>
+    <string name="state">State:</string>
+    <string name="county">County:</string>
+    <string name="city">City:</string>
+    <string name="city_district">City district</string>
+    <string name="suburb">Suburb:</string>
+    <string name="neighbourhood">Neighbourhood</string>
+    <string name="road">Road:</string>
+    <string name="house_number">house number:</string>
+    <string name="labelbu">Update information from geolocation</string>
+    <string name="active">Action:</string>
+    <string name="actionstatus">Status:</string>
+    <string name="copytobuf">Copy address to clipboard</string>
+    <string name="copytobuff">Copy address to clipboard</string>
+    <string name="updatemsg"> Please for fast update information to change phone orientation</string>
+    <string name="copyedmsg">ddress copy to clipboard</string>
+    <string name="coorformatlabel"> Coordinates: lat: %1$.4f;   lon:%2$.4f ; Local time: %3$tF %3$tT </string>
+    <string name="statesconst">State:  </string>
+    <string name="on_st">on </string>
+    <string name="of_st">off  </string>
+    <string name="warninggps">Since GPS is off, the address will be inaccurate! </string>
+    <string name="waitgpscoord">Waiting geoinformation from GPS ...  </string>
+    <string name="waitmobicoord">Waiting geoinformation from mobile network ...  </string>
+    <string name="err_definelocation">Error:Function `define geolocation`   is off,address unavailable! </string>
+    <string name="err_settings_location"> Error:Function `define geolocation` is off.Please check settings of transfer geodata</string>
+    <string name="err_nointernet">Internet unavailable.Can not get geodata</string>
+    <string name="err_connect_internet">Error connecting from Internet!</string>
+    <string name="data_success">Succesfully get data</string>
+    <string name="serverconnect">Connecting to server...</string>
+    <string name="copygps">Copy to clipboars GPS coordinates</string>
+    <string name="lat">Lat.:</string>
+    <string name="lon">Lon.:</string>
+
+</resources>
