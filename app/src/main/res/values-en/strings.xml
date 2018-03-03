@@ -24,7 +24,7 @@
     <string name="copytobuf">Copy address to clipboard</string>
     <string name="copytobuff">Copy address to clipboard</string>
     <string name="updatemsg"> Please for fast update information to change phone orientation</string>
-    <string name="copyedmsg">ddress copy to clipboard</string>
+    <string name="copyedmsg">address copy to clipboard</string>
     <string name="coorformatlabel"> Coordinates: lat: %1$.4f;   lon:%2$.4f ; Local time: %3$tF %3$tT </string>
     <string name="statesconst">State:  </string>
     <string name="on_st">on </string>
