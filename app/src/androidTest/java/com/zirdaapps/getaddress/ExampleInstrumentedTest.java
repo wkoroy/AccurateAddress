@@ -1,4 +1,4 @@
-package com.wkoroy.accurateaddress;
+package com.zirdaapps.getaddress;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

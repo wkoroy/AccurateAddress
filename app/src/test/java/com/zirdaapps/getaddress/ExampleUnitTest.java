@@ -1,4 +1,4 @@
-package com.wkoroy.accurateaddress;
+package com.zirdaapps.getaddress;
 
 import org.junit.Test;
 

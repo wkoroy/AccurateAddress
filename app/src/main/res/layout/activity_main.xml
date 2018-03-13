@@ -7,7 +7,7 @@
     android:padding="5dp"
     android:id="@+id/LINLAY1"
     android:background="@drawable/background"
-    tools:context="com.wkoroy.accurateaddress.MainActivity">
+    tools:context="com.zirdaapps.getaddress.MainActivity">
 
     <TextView
         android:id="@+id/tcountry"

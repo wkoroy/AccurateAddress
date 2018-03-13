@@ -1,4 +1,4 @@
-package com.wkoroy.accurateaddress;
+package com.zirdaapps.getaddress;
 
 import android.annotation.TargetApi;
 import android.content.ClipData;
