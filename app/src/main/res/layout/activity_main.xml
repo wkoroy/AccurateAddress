@@ -12,7 +12,6 @@
     tools:context="com.zirdaapps.getaddress.MainActivity">
 
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -48,15 +47,6 @@
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/thouse_number"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="10dp"
-            android:text="@string/house_number"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textSize="18sp" />
-
-        <TextView
             android:id="@+id/tcounty"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -84,6 +74,15 @@
             android:textSize="18sp" />
 
         <TextView
+            android:id="@+id/tneighbourhood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/neighbourhood"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+        <TextView
             android:id="@+id/tpostcode"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -102,13 +101,14 @@
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/tneighbourhood"
+            android:id="@+id/thouse_number"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="@string/neighbourhood"
+            android:text="@string/house_number"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:textSize="18sp" />
+
     </LinearLayout>
 
     <LinearLayout
