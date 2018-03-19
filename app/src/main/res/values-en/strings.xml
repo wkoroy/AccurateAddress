@@ -4,8 +4,8 @@
     <string name="app_name">Exact address</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="provider_gps">GPS</string>
-    <string name="provider_network">Location from mobile network</string>
+    <string name="provider_gps">GPS:</string>
+    <string name="provider_network">Location from mobile network:</string>
     <string name="location_settings">Settings for geodata</string>
     <string name="yourlocation">Your geolocation: </string>
     <string name="country">"Country: "</string>

@@ -4,8 +4,8 @@
     <string name="app_name">Точный адрес</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="provider_gps">GPS</string>
-    <string name="provider_network">Местоположение по сети</string>
+    <string name="provider_gps">GPS:</string>
+    <string name="provider_network">Местоположение по сети:</string>
     <string name="location_settings">Настройка передачи геоданных</string>
     <string name="yourlocation">Ваше расположение: </string>
     <string name="country">"Страна: "</string>
@@ -25,7 +25,7 @@
     <string name="copytobuff">Cкопировать адрес в буфер обмена</string>
     <string name="updatemsg">"Для быстрого обновления данных поверните телефон для смены ориентации"</string>
     <string name="copyedmsg">"Адрес скопирован в буффер обмена"</string>
-    <string name="coorformatlabel"> Координаты: Широта: %1$.4f,   Долгота:%2$.4f,  Местное время: %3$tF %3$tT </string>
+    <string name="coorformatlabel"> Координаты: Широта: %1$.4f,   Долгота:%2$.4f, время получениея координат: %3$tF %3$tT </string>
     <string name="statesconst">Состояние:  </string>
     <string name="on_st">вкл </string>
     <string name="of_st">выкл  </string>

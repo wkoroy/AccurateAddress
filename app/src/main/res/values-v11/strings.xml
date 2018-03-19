@@ -25,7 +25,7 @@
     <string name="copytobuff">Cкопировать адрес в буфер обмена</string>
     <string name="updatemsg">"Для быстрого обновления данных поверните телефон для смены ориентации"</string>
     <string name="copyedmsg">"Адрес скопирован в буффер обмена"</string>
-    <string name="coorformatlabel"> Координаты: Широта: %1$.4f,   Долгота:%2$.4f,  Местное время: %3$tF %3$tT </string>
+    <string name="coorformatlabel"> Координаты: Широта: %1$.4f,   Долгота:%2$.4f,   время получения координат: %3$tF %3$tT </string>
     <string name="statesconst">Состояние:  </string>
     <string name="on_st">вкл </string>
     <string name="of_st">выкл  </string>

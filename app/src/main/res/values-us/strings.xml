@@ -4,8 +4,8 @@
     <string name="app_name">Exact address</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    <string name="provider_gps">GPS</string>
-    <string name="provider_network">Location from mobile network</string>
+    <string name="provider_gps">GPS:</string>
+    <string name="provider_network">Location from mobile network:</string>
     <string name="location_settings">Settings for geodata</string>
     <string name="yourlocation">Your geolocation: </string>
     <string name="country">"Country: "</string>
@@ -25,7 +25,7 @@
     <string name="copytobuff">Copy address to clipboard</string>
     <string name="updatemsg"> Please for fast update information to change phone orientation</string>
     <string name="copyedmsg">ddress copy to clipboard</string>
-    <string name="coorformatlabel"> Coordinates: lat: %1$.4f;   lon:%2$.4f ; Local time: %3$tF %3$tT </string>
+    <string name="coorformatlabel"> Coordinates: lat: %1$.4f;   lon:%2$.4f ;   time update: %3$tF %3$tT </string>
     <string name="statesconst">State:  </string>
     <string name="on_st">on </string>
     <string name="of_st">off  </string>
